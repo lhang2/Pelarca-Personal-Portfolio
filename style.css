@@ -26,7 +26,7 @@ html{
     margin-bottom: 4px;
     padding: 0;
     transition: all 0.3 ease;
-    background-color: #97aabd;
+    background: #97aabd;
 }
 
 .navbar .menu li a{
@@ -35,6 +35,7 @@ margin-left: 30px;
 font-size: 19px;
 font-weight: 600;
 transition: color 0.3s ease;
+background: #97aabd;
 }
 
 .navbar .menu li a:hover{
@@ -377,9 +378,10 @@ section .title::after{
     margin-top: 10px;
 }
 
-.contact .contact-content .left p{
+.contact .contact-content .right p{
     text-align: justify;
     margin-bottom: 5px;
+    font-size: 20px;
 }
 
 .contact .contact-content .left .icons{
@@ -525,6 +527,9 @@ footer span a{
     .about .about-content .right .text{
         font-size: 20px;
         font-weight: 600;
+    }
+    .contact .contact-content .right p{
+        font-size: 16px;
     }
 }
 @media (max-width: 991px){
