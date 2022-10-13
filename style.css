@@ -536,8 +536,15 @@ footer span a{
     .max-width{
         padding: 0 50px
     }
+
+    .contact .contact-content .right p{
+        font-size: 16px;
+    }
 }
 @media (max-width: 947px){
+    .contact .contact-content .right p{
+        font-size: 16px;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -710,6 +717,7 @@ footer span a{
         margin: 0;
         padding: 0;
         margin-left: 0;
+        background-color: #97aabd;
     }
 
     .about .about-content .left img{
