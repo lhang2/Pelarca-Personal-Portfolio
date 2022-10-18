@@ -43,10 +43,12 @@ background: #97aabd;
 }
 
 .logo {
-    width: 250px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     margin: 0;
     padding: 0;
+    margin-left: 65px;
+    margin-top: 7px;
 }
 
 .navbar .menu li{
